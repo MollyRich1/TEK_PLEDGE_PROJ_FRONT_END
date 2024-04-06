@@ -23,7 +23,7 @@ element.innerHTML = string.replace(/\n/g, '<br><br>');
 
 
  document.getElementById("button2").addEventListener("click", function(){
-    document.getElementById('playlist').innerHTML = "YOUR PLAYLIST: FAST TEMPO";
+    document.getElementById('playlist').innerHTML = "YOUR PLAYLIST: SLOWER TEMPO";
     let myElement = document.getElementById('title');
     let myString = "My Heart Has A Mind Of Its Own\n\nBody And Soul\n\nHello\n\nSomebody's Thinking Of You Tonight\n\nImage Of A Girl\n\nWithout You\n\nBump n' Grind\n\nMother's Children Have a Hard Time\n\nBlack Snake Moan\n\nI Will Always Love You\n\nDon't\n\nLes feuilles mortes\n\nYou Belong To Me\n\nHow Can You Mend A Broken Heart\n\nSee See Rider Blues - Remastered\n\nSt Louis Blues\n\nWhen The Moon Comes Over The Mountain\n\nIf\n\nWhen You Wish Upon A Star\n\nStardust - Remastered 2002\n\nKoko\n\nLittle Star\n\nBei Mir Bist Du Schoen\n\nSixteen Reasons\n\nWanted (with Henri René & His Orchestra and Ch...\n\nIt's Too Soon to Know\n\nWorried Life Blues\n\nAll Shook Up\n\nForever\n\nSincerely\n"
     myElement.innerHTML = myString.replace(/\n/g, '<br><br>');
